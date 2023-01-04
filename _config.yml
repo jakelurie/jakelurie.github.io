@@ -1,0 +1,48 @@
+title: Jake Lurie's Tech Blog
+description: Software Dev independently researching topics in computer science
+
+lang: en-US
+
+# Pages to include in header navigation
+nav_pages:
+  - index.html
+  - talks.md
+  - press.md
+  - about.md
+  - contact.md
+
+# Pages to include in footer navigation
+footer_pages:
+  - books.md
+  - fine-print.md
+
+# Links to include on the contact page
+contact_links:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/jacob-lurie/
+    icon: linkedin
+
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+      comments: false
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-github-metadata
+  - jekyll-feed
